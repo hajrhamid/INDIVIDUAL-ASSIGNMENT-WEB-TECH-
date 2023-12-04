@@ -1,0 +1,101 @@
+/*
+  NAME: SITI HAJAR 'AAINAA BINTI HAMID
+  MATRIC NO: 2218648
+  SECTION: 1
+*/
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  margin-right: 250px;
+  
+}
+
+.sidebar-left,
+.sidebar-right {
+  width: 250px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  
+}
+
+.sidebar-left a,
+.sidebar-right a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.sidebar-left p{
+    text-align: justify;
+}
+
+.sidebar-right {
+  margin: 0;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  right:0;
+  
+}
+
+.sidebar-right a:hover {
+background-color: #888484;
+color: white;
+
+}
+.logo{
+display: block;
+align-items: left;
+margin-left: auto;
+margin-right: auto;
+width:1350px;
+height:195px;
+}
+h1{
+color: #0a0101;
+font-size: 35px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.i1{
+color: saddlebrown;
+font-family: "Brush Script MT", cursive;
+font-size: 28px;
+}
+.i2{
+font-size: 23px;
+margin-left: 470;
+margin-right: 470;
+
+}
+.front{
+text-align: center;
+}
+.slide{
+margin-left: auto;
+margin-right: auto;}
+
+@media screen and (max-width: 600px) {
+  .sidebar-left,
+   .sidebar-right {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+}
+

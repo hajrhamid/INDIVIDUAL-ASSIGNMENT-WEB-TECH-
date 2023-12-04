@@ -1,0 +1,215 @@
+<!--
+    NAME: SITI HAJAR 'AAINAA BINTI HAMID
+    MATRIC NO: 2218648
+    SECTION: 1
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ASSIGNMENT</title>
+  <link rel="stylesheet" href="asg_2218648.css">
+  <script src="asg_2218648.js"></script>
+  <img  class="logo" id="home" src="RM 1 CAMPAIGN.png" 
+    alt="my logo"
+    />
+
+</head>
+<body>
+
+<div class="container">
+  <aside class="sidebar-left">
+    <h3>Life-changing help starts with you </h3>
+        <p> It is clear that by lending a helping hand to those in need, individuals and communities alike can make a tangible difference in the lives of others.<br> <br>Furthermore, such acts of kindness and generosity serve to reinforce the intrinsic value of human connection and solidarity.<br><br>
+            In conclusion, the concept of providing life-changing help is a potent one that has the power to transform not only the lives of those experiencing adversity but also the fabric of the communities that support them. By embodying this spirit of solidarity and understanding, individuals can make a meaningful and lasting impact on the world around them.</p>
+  </aside>
+
+  <aside class="sidebar-right">
+    <a href="#home">Home</a>
+    <a href="#camp">Salary deduction form</a>
+    <a href="#camp2">Salary deduction form (Kulliyyah based)</a>
+    <a href="#contactus">Contact</a>
+  </aside>
+  
+  <main>
+    <div class="front">
+    <h2>بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</h2><br>
+    <h1>RM 1 CAMPAIGN</h1><br><br>
+    <nav class="i1" >Let your contributions be </nav>
+    <nav><h2>PERPETUAL</h2></nav> 
+    <nav class="i1" >for the pleasure of Allah swt<br><br></nav>
+    <nav class="i2" >“The example of those who spend their wealth in the<br>
+        way of Allah is like a seed [of grain] which grows seven<br>
+        spikes; in each spike is a hundred grains. And Allah<br>
+        multiplies [His reward] for whom He wills. And Allah is<br>
+        all-Encompassing and Knowing.”<br>
+        Al Baqarah:261</nav>
+        <br><br>
+    </div>    
+        <div class="slide" style="max-width:500px">
+            <img class="mySlides" src="slide3.jpg" width="530" height="300">
+            <img class="mySlides" src="slide1.jpg" width="530" height="300">
+            <img class="mySlides" src="slide2.jpg" width="530" height="300">
+        </div> 
+    <script>
+      //slideshow  
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+        }
+         myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 6000); // time untuk change image (6 secs)
+        }
+      </script>       
+        
+        <br><br><br><br><br><br><br><br><br><br><br>
+  <h3 id= "camp">RM 1 CAMPAIGN</h3>
+  <p>Director<br>
+   IIUM Endowment Fund<br>
+   Level 3, Rectory Building<br>
+   International Islamic University Malaysia<br></p> 
+ <h5>PARTICIPATION IN RM1 CAMPAIGN—MONTHLY SALARY DEDUCTION</h5>
+
+<form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="staffNo">Staff No.:</label>
+  <input type="text" id="staffNo" name="staffNo" required><br><br>
+
+  <label id="select">K/C/D/I/O  : <select id="select" >
+    <option value="k">Kulliyyah</option>
+    <option value="c">Centres</option>
+    <option value="d">Department</option>
+    <option value="i">Institutes</option>
+    <option value="o">Offices</option>
+  </select></label><br><br>
+
+  <label for="contactNo">Contact No.:</label>
+  <input type="text" id="contactNo" name="contactNo" required><br><br>
+
+  <label for="email">Email:</label>
+  <input type="text" id="email" name="email" required><br><br>
+
+  <label for="amount">Amount to be Deducted RM:</label>
+  <input type="text" id="amount" name="amount" required><br><br>
+
+  <p>The above salary deduction will take effect from 
+  <label for="startDate"></label>
+  <input type="date" id="startDate" name="startDate" required>
+  until
+  <label for="endDate"></label>
+  <input type="date" id="endDate" name="endDate" required>
+  or further notice.</p><br><br>
+
+  <label for="date">Date :</label>
+  <input type="date" id="date" name="date" required><br><br>
+
+  <!--validate form to replace the signiture-->
+  <input type="checkbox" id="checkBox" name="checkBox" >
+  <label for="checkBox">I sincerely contribute my money without coercion from any party.</label><br><br>
+  <button type="button" onclick="return validateForm()">Submit</button><br><br>
+   
+
+ <!--for kulliyyah-->
+</form>
+<br><br><br><br><br><br>
+<img id= "camp2" src="footer.png" alt="footer"></img>
+
+<br><br><br>
+<h3 >RM 1 CAMPAIGN--Kulliyyah Based</h3>
+<p>Director<br>
+IIUM Endowment Fund<br>
+Level 3, Rectory Building<br>
+International Islamic University Malaysia<br></p> 
+
+<h5>PARTICIPATION IN RM1 CAMPAIGN—MONTHLY SALARY DEDUCTION</h5>
+
+<form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+  
+    <label for="staffNo">Staff No.:</label>
+    <input type="text" id="staffNo" name="staffNo" required><br><br>
+  
+    <label id="select">K/C/D/I/O  : <select id="select" >
+      <option value="k">Kulliyyah</option>
+      <option value="c">Centres</option>
+      <option value="d">Departments</option>
+      <option value="i">Institutes</option>
+      <option value="o">Offices</option>
+    </select></label><br><br>
+  
+    <label for="contactNo">Contact No.:</label>
+    <input type="text" id="contactNo" name="contactNo" required><br><br>
+  
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" required><br><br>
+  
+    <label for="amount">Amount to be Deducted RM:</label>
+    <input type="text" id="amount" name="amount" required><br><br>
+  
+    <p>The above salary deduction will take effect from 
+    <label for="startDate"></label>
+    <input type="date" id="startDate" name="startDate" required>
+    until
+    <label for="endDate"></label>
+    <input type="date" id="endDate" name="endDate" required>
+    or further notice.</p>
+
+    <p>For Kulliyyah of  
+        <select id="kulliyyah" >
+            <option value="kict">KICT</option>
+            <option value="koe">KOE</option>
+            <option value="kaed">KAED</option>
+            <option value="koed">KOED</option>
+            <option value="kenms">KENMS</option>
+            
+        </select>
+        <button type="button" onclick="addOption()">Add Option</button><br><br>
+    </p>
+  
+        
+  
+    <label for="date">Date :</label>
+    <input type="date" id="date" name="date" required><br><br>
+
+    <!--validate form to replace the signiture-->
+    <input type="checkbox" id="checkBox" name="checkBox">
+    <label for="checkBox">I sincerely contribute my money without coercion from any party.</label><br><br>
+    <button type="button" onclick="return validateForm()">Submit</button><br><br>
+     
+     
+      <br><br>
+
+  </form>
+
+  <br><br><br><br><br><br><br><br>
+<foot>
+    <img id="contactus" src="icons8-contact-us-50.png"/><strong>CONTACT US</strong><br>
+    <p>IUM ENDOWMENT FUND <br>
+    Level 3, Rectory International Islamic University Malaysia<br>
+    P.O. Box 10<br>
+    50728 Kuala Lumpur<br>
+    Tel : 03 6196 4268<br>
+    Email: ief@iium.edu.my<br>
+    Website : www.lium.edu.my/ief<br>
+    Facebook: www.facebook.com/ief.official/</p><br><br><br>
+    
+    </foot>
+    
+
+
+  </main>
+</div>
+</body>
+</html>
